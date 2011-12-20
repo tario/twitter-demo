@@ -1,4 +1,9 @@
-<b>it works</b>
+<b>Twitter demo by tario (Dario Seminara)</b>
+<br/>
+Using <%= link_to "tweet-button rails plugin", "http://www.rubyonrails.org/" %>
+<br/>
+You can found the source code <%= link_to "here", "https://github.com/tario/twitter-demo" %>
+<br/>
 
-<%= tweet_button :via => "dseminara", :text => "Check this twitter demo site", :url => request.env['SERVER_PROTOCOL']+"://"+request.env['HTTP_HOST']%>
+<%= tweet_button :via => "dseminara", :text => "Check this twitter demo site", :url => "http://stark-fog-6306.heroku.com/", :count => :horizontal%>
 
