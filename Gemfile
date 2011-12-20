@@ -36,3 +36,4 @@ group :test do
 end
 
 gem 'tweet-button'
+gem 'pg'
